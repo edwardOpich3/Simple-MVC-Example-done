@@ -5,7 +5,7 @@
     "node": "8.4.0",
     "npm": "5.3.0"
   },
-  "description": "A simple Express MVC using only static files",
+  "description": "Updated version of the MVC ICE to include dogs.",
   "main": "./server/app.js",
   "scripts": {
     "nodemon": "nodemon --watch ./server ./server/app.js",
@@ -13,8 +13,16 @@
     "pretest": "eslint ./server --fix",
     "test": "echo \"tests complete\""
   },
-  "author": "Cody Van De Mark",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardOpich3/Simple-MVC-Example-done.git"
+  },
+  "author": "Edward Opich",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardOpich3/Simple-MVC-Example-done/issues"
+  },
+  "homepage": "https://github.com/edwardOpich3/Simple-MVC-Example-done#readme",
   "devDependencies": {
     "eslint": "^3.18.0",
     "eslint-config-airbnb": "^14.1.0",
